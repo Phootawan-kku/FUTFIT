@@ -1,0 +1,30 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>FUTFIT</title>
+<link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;800&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css"></head><body>
+<div id="app">
+ <div id="hud">
+  <div class="pill"><i class="dot b"></i>You</div><div class="sc" id="sb">0</div>
+  <div id="clkw"><div id="clk">00:00</div><span id="half">1st half</span></div>
+  <div class="sc" id="sr">0</div><div class="pill"><span id="cpu">CPU</span><i class="dot r"></i></div>
+ </div>
+ <div id="stage"><canvas id="c" width="1100" height="700"></canvas><div id="stam">Sprint<b><i></i></b></div><div id="ov" class="ov"></div></div>
+ <div id="keys"><span><kbd>←↑↓→</kbd> Move</span><span><kbd>S</kbd> Short pass · Switch</span><span><kbd>A</kbd> Lob · Slide</span><span><kbd>W</kbd> Through</span><span><kbd>D</kbd> Shoot (hold) · Tackle</span><span><kbd>Z</kbd><kbd>X</kbd><kbd>C</kbd><kbd>V</kbd> Skill moves</span><span><kbd>B</kbd> Camera</span><span><kbd>E</kbd> / <kbd>Shift</kbd> Sprint</span><span><kbd>Q</kbd> Switch</span><span><kbd>P</kbd> Pause</span></div>
+</div>
+<script src="js/config.js"></script>
+<script src="js/audio.js"></script>
+<script src="js/setup.js"></script>
+<script src="js/actions.js"></script>
+<script src="js/ai.js"></script>
+<script src="js/physics.js"></script>
+<script src="js/skills.js"></script>
+<script src="js/flow.js"></script>
+<script src="js/menu.js"></script>
+<script src="js/tournament.js"></script>
+<script src="js/input.js"></script>
+<script src="js/simulation.js"></script>
+<script src="js/camera.js"></script>
+<script src="js/render.js"></script>
+<script src="js/main.js"></script></body></html>
